@@ -59,11 +59,17 @@ else:
             print('Le diste a mi barco!')
             tablero[fila][columna]= 'X'
             print_tablero(tablero)
-        else:
-            print('Has fallado!')
-            tablero[fila][columna]= '-'
-            print_tablero(tablero)
-    else:
+       else:
         print('Has fallado!')
         tablero[fila][columna]= '-'
         print_tablero(tablero)
+        
+        s = input()
+s = s.split(' ')
+l = []
+for x in s:
+   l.append(int(x))
+l.sort(reverse=True)
+for i in l:
+    print(i,end= " ")
+  
