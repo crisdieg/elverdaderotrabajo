@@ -59,11 +59,8 @@ else:
             print('Le diste a mi barco!')
             tablero[fila][columna]= 'X'
             print_tablero(tablero)
-        else:
-            print('Has fallado!')
-            tablero[fila][columna]= '-'
-            print_tablero(tablero)
-    else:
+       else:
         print('Has fallado!')
         tablero[fila][columna]= '-'
         print_tablero(tablero)
+  
